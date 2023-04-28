@@ -10,8 +10,8 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/java-maven-sonar-argocd-helm-k8s/sprint-boot-app
-cd java-maven-sonar-argocd-helm-k8s/sprint-boot-app
+git clone https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/java-maven-sonar-argocd-helm-k8s/spring-boot-app
+cd java-maven-sonar-argocd-helm-k8s/spring-boot-app
 ```
 
 Execute the Maven targets to generate the artifacts
@@ -55,7 +55,9 @@ Hurray !! Access the application on `http://<ip-address>:8010`
 apt install unzip
 adduser sonarqube
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
-unzip *
+unzip sonarqube-9.4.0.54424.zip
+cp sonarqube-9.4.0.54424 /home/sonarqube
+sudo su - sonarqube
 chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
 chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
 cd sonarqube-9.4.0.54424/bin/linux-x86-64/
@@ -63,5 +65,11 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ```
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
+
+SonarQube URL:
+
+```
+http://3.64.237.2:9000/
+```
 
 
