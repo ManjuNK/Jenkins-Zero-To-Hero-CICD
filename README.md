@@ -39,6 +39,11 @@ Verify Java is Installed
 ```
 java -version
 ```
+Maven Installation
+
+```
+apt install maven
+```
 
 Now, you can proceed with installing Jenkins
 
