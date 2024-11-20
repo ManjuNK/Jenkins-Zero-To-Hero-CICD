@@ -1,6 +1,6 @@
 projectKey=com.manju:spring-boot-example
-serverUrl=http://3.66.11.198:9000
+serverUrl=http://18.199.21.199:9000
 serverVersion=9.4.0.54424
-dashboardUrl=http://3.66.11.198:9000/dashboard?id=com.manju%3Aspring-boot-example
-ceTaskId=AYxShNKrJ4SJS2kpAgRn
-ceTaskUrl=http://3.66.11.198:9000/api/ce/task?id=AYxShNKrJ4SJS2kpAgRn
+dashboardUrl=http://18.199.21.199:9000/dashboard?id=com.manju%3Aspring-boot-example
+ceTaskId=AZNK2OBOc_eS11_znkC8
+ceTaskUrl=http://18.199.21.199:9000/api/ce/task?id=AZNK2OBOc_eS11_znkC8
